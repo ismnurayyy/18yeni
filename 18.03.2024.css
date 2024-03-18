@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ /* font-family: "Oleo Script", system-ui; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1440px;
+    height: 95%;
+    margin: 0 auto;   
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 800px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nav-img{
+    top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.nav-icon i{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.foto{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%),url(fotoback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: "Oleo Script", system-ui;
+}
+.foto p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: antiquewhite;
+    text-align: center;
+    top: 50px;
+}
+.welcome{
+    display: flex;
+    /* margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px; */
+    padding: 70px 200px;
+    gap: 300px;
+    font-family: "Oleo Script", system-ui;
+
+}
+.text1{
+    text-align: start;
+    font-size: 20px;
+    width: 45%;
+}
+.texts{
+    background-color: rgb(12, 5, 43);
+    color: white;
+    font-family: "Oleo Script", system-ui;
+}
+hr{
+    color: gray;
+}
+
+.texts3{
+    font-size: 20px;
+}
+.texts1 {
+    display: flex;
+    margin-right: 180px;
+    gap: 240px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.texts4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap:315px;
+} 
+.texts5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap:280px;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+    margin-left: 100px;
+    gap: 5px;
+}
+.grid-item1 {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.grid-item1 img{
+    width: 700px;
+    height: 400px;
+    
+}
+.grid-item2 img{
+    width: 400px;
+    height: 400px;
+    
+}
+.grid-item3 img{
+    width: 400px;
+    height: 400px;
+    
+}
+.grid-item4 img{
+    width: 200px;
+    height: 400px;
+}
+.grid-item5 img{
+    width: 480px;
+    height: 400px;
+}
+h2{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: "Oleo Script", system-ui;
+}
+.clients{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    display: flex;
+    gap:315px;
+    font-size: 20px;
+    font-family: "Oleo Script", system-ui;
+}
+.logos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 100px;
+    gap: 5px;
+}
+.grid6 img{
+    width: 170px;
+    height: 170px;
+}
+.news{
+    background-color: gray;
+    font-family: "Oleo Script", system-ui;
+}
+.new{
+    display: flex;
+    gap: 250px;
+    margin-right: 200px;
+}
+.new h2{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.new p{
+    font-size: 20px;
+    margin-top: 60px;
+}
+.mini{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto;
+    gap: 60px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.minis1{
+    display: flex;
+    gap: 5px;
+}
+.minisf{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+}
+.more{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.more i{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.copy{
+    display: flex;
+    gap: 400px;
+    text-align: center;
+    margin-left: 100px;
+    font-family: "Oleo Script", system-ui;
+}
+.butn{
+    position: fixed;
+}
+.but button {
+    
+    width: 120px;
+    height: 50px;
+    color: white;
+    border-radius: 40px;
+    background-color: black;
+    font-family: "Oleo Script", system-ui;
+    
+}
+
+button:hover{
+    background-color: dimgray;
+}
